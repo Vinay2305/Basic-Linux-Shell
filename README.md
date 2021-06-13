@@ -4,3 +4,7 @@ Examples of internal commands implemented in this shell are 'cd', 'pwd', 'exit',
 Examples of external commands implemented in this shell are 'ls', 'cat', 'date', 'rm' & 'mkdir'. For these external commands, there's a different program written to handle these commands. Therefore, to handle these commands the shell would typically create a new process, using the fork() system call and within each process I use the exec() family system call to run the individual program.
 
 I have included all the intermediate files from the compilation to execution for each program.
+Run this command in the directory of the makefile to run the linux terminal :
+```
+make
+```
